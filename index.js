@@ -9,7 +9,7 @@ $(function () {
         // var tool = $('input[name="tool"]').val();
         
         //var msg = `${key}\n朝礼/終礼不参加の理由：${reasons}\n返信期限：${date}\n使用ツール：${tool}`;
-        var msg = `${key}\n欠席理由：${reasons}`;
+        var msg = `欠席理由\n${reasons}`;
         sendText(msg);
 
         return false;
